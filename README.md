@@ -17,7 +17,7 @@ way to do it...
 
 Run this app with the following vars:
 
-```
+```sh
 # change to your key/base
 export AIRTABLE_KEY=xxx
 export AIRTABLE_BASE=xx
@@ -27,7 +27,7 @@ export AIRTABLE_TABLES=subscriptions
 
 I deploy a Datasource like this:
 
-```
+```yaml
 apiVersion: v1
 kind: ConfigMap
 metadata:
